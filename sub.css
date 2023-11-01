@@ -1,0 +1,89 @@
+.bodymain{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 20px;
+    left: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.bodymain h1{
+    position: absolute;
+    top: -10px;
+    left: 600px;
+}
+.bodymain h2{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.parts{
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.parts a{
+    text-decoration:none ;
+}
+.parts img{
+    height: 200px;
+    width: 300px;
+}
+.CHEST{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.CHEST h2{
+    color: white;
+}
+.CHEST>img{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+.CHEST table{
+    position: absolute;
+    height: 80vh;
+    width: 80%;
+    border: 3px white solid;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.245);
+}
+table img{
+    height: 150px;
+    width: 250px;
+}
+.ARMS{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ARMS table{
+    position: absolute;
+    height: 80vh;
+    width: 80%;
+    border: 3px rgb(0, 0, 0) solid;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.245);
+}
